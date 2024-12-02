@@ -2,6 +2,8 @@ import streamlit as st
 import plotly.graph_objects as go
 
 st.title("Pluswijken Wijkscan")
+'LET OP: Dit is een prototype in ontwikkeling dat gebruikt maakt van fictieve data'
+
 
 wijken = ['Kerkrade Rolduckerveld',
           'Eijsden']

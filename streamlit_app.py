@@ -78,4 +78,10 @@ fig.update_layout(margin=dict(t=30, l=0, r=0, b=0))
 # Display the chart in Streamlit
 st.plotly_chart(fig)
 
+'## Overwegingen'
 
+'''Let op: Voor beide weergaven geldt het volgende:
+Normaal gesproken laat een taartdiagram of een treemap de proporties zien van bepaalde onderdelen.
+De ene taartpunt kan dan groter zijn dan de andere.
+In het voorbeeld dat we eerder zagen van GGD Hollands midden zijn de afmetingen van de taartpunten echter vastgezet (https://eengezonderhollandsmidden.nl/ghm-profieltaart.aspx).
+Het zijn daar de kleuren en de tooltips die de informatie over de waarden geven.'''
